@@ -23,7 +23,6 @@ var api = new ParseServer({
   push: {
     ios: {
       pfx: 'certs/Certificates.p12',
-      passphrase: 'spitfire', // optional password to your p12/PFX
       bundleId: 'com.pancakeDev.reviser',
       production: false
     }
